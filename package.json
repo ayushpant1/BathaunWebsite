@@ -18,5 +18,14 @@
   "homepage": "https://github.com/ayushpant1/BathaunWebsite#readme",
   "dependencies": {
     "bulma-start": "0.0.2"
-  }
+  },
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.2"
+  },
+"scripts": {
+  "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+  "css-watch": "npm run css-build -- --watch",
+  "start": "npm run css-watch"
+}
 }
