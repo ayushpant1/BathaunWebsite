@@ -18,11 +18,10 @@
     "url": "https://github.com/ayushpant1/BathaunWebsite/issues"
   },
   "homepage": "https://github.com/ayushpant1/BathaunWebsite#readme",
-  "dependencies": {
-    "bulma-start": "0.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "bulma": "^0.7.1",
+    "install": "^0.12.1",
     "node-sass": "^4.9.2"
   }
 }
